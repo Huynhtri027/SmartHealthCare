@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.rajpratim.completehealthcare.HealthCheckActivity"
+    tools:context=".ECG_Tools.HealthCheckActivity"
     tools:showIn="@layout/activity_health_check">
 
     <TextView android:textSize="15.0dip"

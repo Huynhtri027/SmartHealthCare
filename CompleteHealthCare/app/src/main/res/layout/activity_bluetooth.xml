@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.rajpratim.completehealthcare.BluetoothActivity">
+    tools:context=".ECG_Tools.BluetoothActivity">
 
 
     <Button
@@ -29,7 +29,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <com.example.rajpratim.completehealthcare.GraphView
+    <com.example.rajpratim.completehealthcare.ECG_Tools.GraphView
         android:id="@+id/graph_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

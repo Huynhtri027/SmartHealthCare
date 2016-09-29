@@ -29,23 +29,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActivityTracker"
+            android:name=".Caloriemeter.ActivityTracker"
             android:label="@string/title_activity_activity_tracker"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Food_tracker"
-            android:label="@string/title_activity_food_tracker"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".HealthCheckActivity"
+            android:name=".ECG_Tools.HealthCheckActivity"
             android:label="@string/title_activity_health_check"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Calculate"
+            android:name=".ECG_Tools.Calculate"
             android:label="@string/title_activity_health_check"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BluetoothActivity"
+            android:name=".ECG_Tools.BluetoothActivity"
             android:label="@string/title_activity_health_check"
             android:theme="@style/AppTheme.NoActionBar" />
         <!--
@@ -59,7 +55,7 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".StatActivity"></activity>
+        <activity android:name=".Caloriemeter.StatActivity"></activity>
     </application>
 
 </manifest>
